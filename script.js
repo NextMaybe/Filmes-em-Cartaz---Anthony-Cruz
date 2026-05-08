@@ -59,6 +59,7 @@ function mostrarFilmes(listaFilmes) {
         ${imagem ? `<img src="${imagem}">` : ""}
         <h2>${filme.title}</h2>
         ${generosTexto ? `<p>${generosTexto}</p>` : ""}
+        <p>${filme.overview}</p>
       </div>
     `;
   });
