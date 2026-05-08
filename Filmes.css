@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.topo {
+  background-color: #ffffff;
+  border-left: 6px solid #01b4e4;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.topo h1 {
+  margin: 0 0 8px 0;
+  color: #032541;
+  font-size: 32px;
+}
+
+.topo p {
+  margin: 0;
+  color: #475569;
+  font-size: 18px;
+}
+
+.mensagem {
+  background-color: #fff7ed;
+  color: #9a3412;
+  border: 1px solid #fed7aa;
+  padding: 16px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.lista-filmes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding-bottom: 32px;
+}
+
+.filme {
+  background-color: #ffffff;
+  border: 1px solid #d7e6f3;
+  padding: 16px;
+}
+
+.filme img {
+  width: 100%;
+  max-width: 185px;
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+.filme h2 {
+  color: #032541;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.filme p {
+  margin: 6px 0;
+  line-height: 1.4;
+  color: #334155;
+}
+
+.generos {
+  font-weight: bold;
+  color: #0f766e;
+}
+
+.sem-poster {
+  width: 185px;
+  height: 278px;
+  margin: 0 auto 12px auto;
+  background-color: #e2e8f0;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+}
